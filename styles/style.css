@@ -1,0 +1,69 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 3px;
+    z-index: 1;
+}
+
+nav > p {
+    display: inline;
+}
+
+#nav-creations {
+    float: right;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    height: 170vh;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+#panel-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#panel-1 p {
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#panel-2 {
+    font-size: 30px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 10px 10px white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover, a:active {
+    text-shadow: 0 0 5px white;
+}
